@@ -13,7 +13,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'npm install'
+                sh 'npm init'
+                sh 'npm install @hapi/hapi'
             }
         }
          stage('Start') {
