@@ -3,8 +3,8 @@
 const Hapi   = require('@hapi/hapi');
 
 const Server = new Hapi.Server({
-    host: '0.0.0.0',
-    port: 80
+    host: 'localhost',
+    port: 3000
 });
 const Hello  = require('./lib/hello');
 
